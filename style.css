@@ -1,0 +1,630 @@
+
+*{
+padding:0;
+margin:0;
+box-sizing: border-box;
+}
+section{
+width: 100%;
+height:110vh;
+}
+#home{
+background-color: #0E4E3E;
+
+}
+.banner{
+background-color:#0E4E3E;
+z-index: 1; 
+position: sticky;
+top: 0;
+position: fixed;
+width: 100%;
+}
+.navbar{
+width: 85%;
+margin: auto;
+padding: 35px 0;
+display: flex;
+justify-content: space-between; 
+
+
+}
+.logo{
+position: relative;
+width: 120px;
+cursor: pointer;
+
+}
+.navbar h1{
+margin-left: -80px;
+color: #45C694;
+font-size: 25px;
+font-weight:800;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Sedgwick Ave Display', cursive;
+}
+.navbar ul li{
+list-style: none;
+display: inline-block;
+margin: 0 20px;
+}
+.navbar ul li a{
+text-decoration:none;
+color: white;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Sedgwick Ave Display', cursive;
+}
+.content{
+text-align: start;
+padding: 35px 0;
+margin: 0 80px;
+color: white;
+font-family: 'Josefin Sans', sans-serif;    
+font-family: 'Sedgwick Ave Display', cursive;
+}
+.content h1{
+position: relative;
+font-size:45px;
+top:120px;
+}
+.content p{
+position: relative;
+margin-top:155px;
+line-height: 30px;  
+font-size: 20px; 
+}
+.btn1{
+background-color: #FEA865;
+color: black;
+margin-left:px;
+padding: 20px;
+border-radius: 2px;
+border: none;
+margin-top:20px;
+}
+.btn2{
+background-color: #3FCD93;
+color: white; 
+margin-left: 4px;
+padding: 20px;
+border-radius: 2px;
+border: none;  
+}
+.img1{
+position: relative;
+/* left:600px; */
+bottom:400px;
+width: 20%;
+height: 330px;
+rotate: 11deg;
+}
+.img2{
+position: relative;
+/* left:650px; */
+bottom:400px;
+width: 20%;
+height: 350px;
+rotate: 8deg;
+}
+#About{
+background-color: white;
+background-size: cover;
+width: 100%;
+margin-top: 3px;
+}
+.headerh1{
+text-align: center;   
+padding-top: 40px;
+color: #828282;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Sedgwick Ave Display', cursive;
+font-size:40px;
+}
+.boxespara{
+position: relative;
+text-align: center;
+top: 40px;
+}
+.boxes{
+position: relative;
+top: 60px;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Sedgwick Ave Display', cursive;
+}
+.icons1{
+position: relative;
+left: 75px;
+top: 30px;
+font-size:60px;
+color:green;
+
+}.icons2{
+position: relative;
+left: 75px;
+top: 30px;
+font-size:60px;
+color:cyan;
+
+}
+.box1{
+position:relative;
+width: 200px;
+height: 150px;
+font-size: 20px;
+margin-left: 40px;
+box-shadow: 0 3px 10px rgb(0 0 0 / 0.6);
+border-radius:5px;
+}
+.box2{
+position:relative;
+width: 200px;
+height: 150px;
+font-size: 20px;
+margin-left: 300px;
+margin-top:-150px;
+box-shadow: 0 3px 10px rgb(0 0 0 / 0.6);
+border-radius:5px;
+}
+.box3{
+position:relative;
+width: 200px;
+height: 150px;
+font-size: 20px;
+/* margin-left: 300px; */
+margin-top:50px;
+box-shadow: 0 3px 10px rgb(0 0 0 / 0.6);
+border-radius:5px;
+}
+.box4{
+position:relative;
+width: 200px;
+height: 150px;
+font-size: 20px;
+margin-top:-150px;
+box-shadow: 0 3px 10px rgb(0 0 0 / 0.6);
+border-radius:5px;
+margin-left: 40px;
+}
+.circle1{
+position: relative;
+left: 75px;
+top: 30px;
+font-size:60px;
+color:red;
+
+}
+.circle2{
+position: relative;
+left: 75px;
+top: 30px;
+font-size:60px;
+color:orange;
+}
+.aboutuscontenth1{
+font-weight:400;
+margin-bottom: 20px;
+}
+.aboutuscontent{
+position: relative;
+/* left: 650px; */
+top:-300px;
+}
+.aboutuscontenth2{
+color:#4ea988;
+margin-bottom:15px ;
+
+}
+.aboutuscontentp{
+color: grey;
+margin-bottom:20px ;
+}
+.aboutuscontenth3{
+margin-bottom:20px ;
+color: rgb(70, 67, 67);
+font-weight:40;
+}
+.btnn button{
+position: relative;
+background-color:#3FCD93;
+color:white;
+padding: 20px;
+border-radius: 2px;
+border: none;
+border-radius: 5pxpx;
+top: -280px;
+/* left: 650px; */
+}
+.mh1{
+position: relative;
+/* left: 00px; */
+top:30px;
+font-size:60px;
+}
+.mp{
+text-align: start;
+position: relative;
+/* left: 200px; */
+top: 80px;
+font-size: 25px;
+}
+.mimg1{
+position: relative;
+top: -50px;
+/* left: 700px; */
+width: 210px;
+height: 280px;
+}
+
+.mimg2{
+position: relative;
+top: -50px;
+/* left: 730px; */
+width: 210px;
+height: 280px;
+}
+.mbtn{
+position: relative;
+/* left:190px; */
+top: -170px;
+}
+.mbtn1{
+background-color: #3FCD93;
+color: black;
+padding: 20px;
+border-radius: 30px;
+border: none;
+margin-top: 20px;
+padding-inline: 30px;
+}
+.mbtn2{
+background-color: #FEA865;
+color: white; 
+margin-left: 4px;
+padding: 20px;
+border-radius: 30px;
+border: none;  
+padding-inline: 30px;
+}
+.vh1{
+position: relative;
+/* left: 600px; */
+top:1px;
+font-size:60px;
+}
+.vp{
+text-align: start;
+position: relative;
+/* left: 600px; */
+top: 80px;
+font-size: 25px;
+}
+.vimg1{
+position: relative;
+top: -100px;
+/* left: 200px; */
+width: 280px;
+height: 280px;
+}
+.vbtn{
+position: relative;
+/* left: 600px; */
+top: -170px;
+}
+.vbtn1{
+background-color: #3FCD93;
+color: black;
+margin-left:px;
+padding: 20px;
+border-radius: 30px;
+border: none;
+margin-top: 20px;
+padding-inline: 30px;
+}
+.vbtn2{
+background-color: #FEA865;
+color: white; 
+margin-left: 4px;
+padding: 20px;
+border-radius: 30px;
+border: none;  
+padding-inline: 30px;
+}
+.text{
+text-align: center;                 
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Sedgwick Ave Display', cursive;
+font-size: 40px;
+}
+.textp{
+text-align: center;
+margin-top: 30px;
+font-size: 25px;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Sedgwick Ave Display', cursive;
+}
+.textp1{
+text-align: center;
+margin-top: 30px;
+font-size: 25px;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Sedgwick Ave Display', cursive;
+color:#3FCD93;
+}
+.textbox1{
+position:relative;
+width: 240px;
+height: 220px;
+font-size:15px;
+top:68px;
+/* left:200px; */
+box-shadow: 0 3px 10px rgb(0 0 0 / 0.6);
+border-radius:5px;
+padding: 20px;
+}   
+.box1h4{
+font-size:25px;
+margin-bottom:px;
+}
+.box1p{
+font-size:17px;
+}
+.textbox2{
+position:relative;
+width: 250px;
+height: 220px;
+font-size:15px;
+top:-154px;
+/* left:550px; */
+box-shadow: 0 3px 10px rgb(0 0 0 / 0.6);
+border-radius:5px;
+padding: 20px;
+}.box2p{
+margin-top: 25px;
+font-size:17px;
+
+}
+
+.textbox3{
+position:relative;
+/* width: 245px; */
+height: 220px;
+font-size:15px;
+top:-375px;
+/* left:900px; */
+box-shadow: 0 3px 10px rgb(0 0 0 / 0.6);
+border-radius:5px;
+padding: 20px;
+}
+.box3p{
+margin-top: 25px;
+font-size:17px;  
+}
+.whath2{
+text-align: center;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Sedgwick Ave Display', cursive;
+color:#3FCD93;
+}
+.whath1{
+text-align: center;
+padding: 20px;
+font-weight:25;
+font-size: 40px;
+}
+.whatp{
+text-align: center;
+color: grey;
+font-weight:700;
+}
+
+body{
+min-height:100px;
+display: flex;
+flex-direction: column;
+
+}
+
+footer{
+width:100%;
+background-color: #39395B;
+margin-top:100px;
+position:absolute;
+height: 400px;
+}
+.wbox1{
+position:relative;
+width: 250px;
+height: 350px;
+font-size: 20px;
+/* margin-left:150px; */
+box-shadow: 0 3px 10px rgb(0 0 0 / 0.6);
+border-radius:5px;
+}
+.whatboxes{
+padding-top:50px;
+}
+.wboxes1p,.wbox1h1{
+padding: 8px;
+}
+.wbox2{
+position:relative;
+width: 250px;
+height: 350px;
+font-size: 20px;
+/* margin-left:280px; */
+box-shadow: 0 3px 10px rgb(0 0 0 / 0.6);
+border-radius:5px;
+top:-340px;
+}
+.wbox3{
+position:relative;
+width: 250px;
+height: 380px;
+font-size: 20px;
+/* margin-left:280px; */
+box-shadow: 0 3px 10px rgb(0 0 0 / 0.6);
+border-radius:5px;
+top:-320px;
+}
+.wbox4{
+position:relative;
+width: 250px;
+height: 330px;
+font-size: 20px;
+/* margin-left:280px; */
+box-shadow: 0 3px 10px rgb(0 0 0 / 0.6);
+border-radius:5px;
+top:-375px;
+}
+#our-mission{
+margin-top: -50px;
+}
+#ourvission{
+margin-top:-100px;
+}
+#textsec{
+margin-top:-150px;
+}
+#whatwedo{
+margin-top:-100px;
+}
+.fh2{
+position: relative;
+color:white;
+font-weight:lighter;
+top:60px;
+/* left:60px; */
+font-size: 40px;
+}
+.f1h2{
+position: relative;
+color:white;
+font-weight:100;
+top:20px;
+/* left: 780px; */
+font-size: 40px;
+}
+    .fp{
+position: relative;
+color:white;
+font-weight:100;        
+top:80px;
+/* left: 60px;  */
+line-height:30px;
+font-size:20px;
+}
+.address{
+position: relative;
+top:100px;
+/* left: 60px; */
+color: white;
+font-size:19px;
+}
+.quickl{
+position: relative;
+top: -175px;
+/* left:800px; */
+}
+.quick{
+position: relative;
+font-size: 40px;
+color:white;
+font-weight:100;
+padding-bottom: 25px;
+}
+.pq{
+    position: relative;
+    color: white;
+    font-size:20px;
+    left:10px;
+}
+.qh2{
+    color: white;
+    font-size:40px ;
+    font-weight: 10;
+}
+.qlh2{
+    position: relative;
+    color: white;
+    font-size:40px ;
+    font-weight:lighter;
+    /* left:300px; */
+    top:-45px;
+}
+.qlinks{
+    margin-top: 20px;
+    color: white;
+    font-size:20px;
+}
+.qh2{
+    color: white;
+}
+.qp{
+    padding-top: 20px;
+    line-height: 40px;
+    color: white;
+    font-size: 20px;
+}
+.support{
+    position: relative;
+    /* left: 1100px; */
+    top:170px;
+}
+.sh2{
+    color: white;
+    font-weight: lighter;
+    font-size: 40px;
+}
+.qp3{
+    color: white;
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: lighter;
+    line-height: 40px;
+}
+@media(max-width:480px){
+#home{
+    height:100vh;
+    width:140%;
+}
+.navbar{
+    display: none;
+}
+.content h1{
+    top: -16px;
+    left:-60px;
+    font-size:20px;
+}
+.content p{
+font-size:15px;
+left: -60px;
+top: -160px;
+line-height: 20px;
+}
+.btn1{
+    position: relative;
+top:-160px;
+left: -70px;
+}
+.btn2{
+    position: relative;
+    left: 65px;
+    top: -215px;
+}  
+.img1{
+    position: relative;
+    height: 100px;
+    width: 100px;
+    left: -40px;
+    top: -180px;
+}
+.img2{
+   position: relative;
+    height: 100px;
+    width: 100px;
+    left: -20px;
+    top:-180px; 
+}
+}
+
+
