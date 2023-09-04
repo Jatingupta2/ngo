@@ -183,12 +183,13 @@ padding-bottom:20px;
     display: flex;
     flex-direction: column;
     padding-top: 0.5em;
+    margin-left:-1em;
+
   }
   .content-para {
     padding-top: 12px;
     font-size: 15px;
     line-height: 17px;
-    margin-right: 0em;
     width: 100%;
   }
   .content-button button {
@@ -233,7 +234,7 @@ padding-bottom:20px;
   margin-top: 1em;
 }
 .downloadbtn{
-padding-left: 60px;
+padding-left:5em;
 }
 .box{
   margin-left: 50px;
