@@ -193,7 +193,7 @@ padding-bottom:20px;
   .content-button button {
     padding: 4px;
     margin-top: 20px;
-    font-size: 8px;
+    font-size:15px;
   }
   .content-images{
     padding-top:2em;
@@ -240,5 +240,8 @@ padding-left:5.4em;
 .icon{
 margin-left:12px;
 margin-top:15px;
+}
+.text{
+  margin-top: -20px;
 }
 }
