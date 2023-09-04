@@ -129,14 +129,16 @@
       }
       .img2{
           width: 37%;
-          height: 24vh;
+          height:20vh;
       }
       .img1 {
           width: 34%;
-          height:27vh;
+          height:22vh;
   }
+
   .content-images{
       padding-right: 12px;
+      padding-bottom: 20px;
   }
   }
   
