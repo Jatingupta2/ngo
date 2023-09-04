@@ -2,6 +2,8 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Sedgwick Ave Display", cursive;
 }
 nav {
   width: 100%;
@@ -232,9 +234,10 @@ padding-bottom:20px;
   margin-top: 1em;
 }
 .downloadbtn{
-padding-left:5.2em;
+padding-left:5.3em;
 }
 .boxes{
-  padding:60px;
+  padding-left:70px;
 }
+
 }
