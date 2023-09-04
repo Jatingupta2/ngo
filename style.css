@@ -234,8 +234,11 @@ padding-bottom:20px;
 .downloadbtn{
 padding-left:5.4em;
 }
-.box{
-  margin-left: 50px;
+.boxes{
+  padding-left:80px;
 }
-
+.icon{
+padding-left:70px;
+padding-top: 20px;
+}
 }
