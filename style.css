@@ -2,8 +2,6 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Josefin Sans", sans-serif;
-  font-family: "Sedgwick Ave Display", cursive;
 }
 nav {
   width: 100%;
@@ -135,7 +133,7 @@ nav li a {
 .icon{
   font-size:3em;
   padding-left:1em;
-  padding-top:10px;
+  padding-top: 10px;
 }
 .text{
 padding:30px;
@@ -195,7 +193,7 @@ padding-bottom:20px;
   .content-button button {
     padding: 4px;
     margin-top: 20px;
-    font-size:14px;
+    font-size: 8px;
   }
   .content-images{
     padding-top:2em;
@@ -234,10 +232,13 @@ padding-bottom:20px;
   margin-top: 1em;
 }
 .downloadbtn{
-padding-left:5.3em;
+padding-left:5.4em;
 }
-.boxes{
-  padding-left:70px;
+.box{
+  margin-left: 50px;
 }
-
+.icon{
+margin-left:12px;
+margin-top:15px;
+}
 }
