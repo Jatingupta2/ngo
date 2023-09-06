@@ -1,0 +1,136 @@
+@media only screen and (min-width: 320px) and (max-width: 374px) {
+    .whole-homepage {
+      width: 100%;
+      height: 100%;
+    }
+    .nav-bar {
+      display: none;
+    }
+    .content-heading {
+      flex-direction: column;
+      width: 100%;
+  
+    }
+    .main-heading {
+      font-size: 16px;
+  
+    }
+    .content{
+      display: flex;
+      flex-direction: column;
+      padding-top: 0.5em;
+      margin-left:-1em;
+  
+    }
+    .content-para {
+      padding-top: 12px;
+      font-size: 15px;
+      line-height: 17px;
+      width: 100%;
+    }
+    .content-button button {
+      padding: 4px;
+      margin-top: 20px;
+      font-size:15px;
+    }
+    .content-images{
+      padding-top:2em;
+    }
+    .img2 {
+      width:27%;
+      height:16vh;
+      rotate: 0deg;
+    }
+    .img1 {
+      width: 26%;
+      height: 16vh;
+      rotate:0deg;
+    }
+  
+    .content-images {
+      padding-right: 12px;
+      padding-bottom: 20px;
+    }
+    .paragraph{
+      padding:10px;
+    }
+  .aboutus{
+    width: 100%;
+    height:160vh
+  }
+  .aboutuscontent{
+    display:flex;
+    flex-direction: column;
+  }
+  /* .box{
+    padding-left:12px;
+    padding-top:10px;
+  } */
+  .box {
+    position: relative;
+    width: 131px;
+    height: 103px;
+    font-size: 12px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.6);
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+  .aboutus h1{
+    margin-top: 1em;
+  }
+  .downloadbtn{
+  padding-left:5em;
+  }
+  .text{
+    padding: 20px;
+  }
+  .heading{
+    font-size:15px;
+  }
+  .aboutuscontentp1 {
+    font-weight: 800;
+    font-size: 15px;
+    padding-bottom:12px;
+    text-align: center;
+}
+.aboutuscontentp2 {
+  text-align: center;
+  font-weight: 600;
+  color: #4ea988;
+  font-size: 16px;
+  padding-bottom:12px;
+}
+.aboutuscontentp3 {
+  line-height: 21px;
+  padding-bottom: 9px;
+}
+.aboutuscontent {
+  padding-top: 0%;
+}
+.boxes{
+padding-top: 20px;
+}
+.box1-2{
+  margin-right:0em;
+}
+.box2-3{
+  margin-left:1em;
+}
+.mission,.vission{
+  display: flex;
+  flex-direction: column;
+}
+.mission-heading {
+  padding-bottom: 20px;
+  font-size: 40px;
+  font-size: 22px;
+  text-align: center;
+}
+.mission-content {
+  padding-left: 5em;
+  font-size: 9px;
+  text-align: center;
+  padding-left: 1px;
+  padding-top: 20px;
+}
+}
