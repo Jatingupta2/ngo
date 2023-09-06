@@ -98,9 +98,12 @@ nav li a {
   border-radius: 2px;
   border: none;
 }
-.about-us {
+.about-us,.our-mission-vission {
   width: 100%;
-  height: 100vh;
+  height: 100vh
+}
+.about-heading{
+  font-size:25px;
 }
 .aboutus h1 {
   margin-top:2em;
@@ -113,9 +116,15 @@ nav li a {
 .paragraph {
   float: right;
 }
+.box1-2{
+  margin-right:3em;
+}
+.box2-3{
+  margin-left:3em;
+
+}
 .boxes {
   display: flex;
-  justify-content: space-between;
   padding-left: 5%;
   padding-right: 5%;
 }
@@ -127,6 +136,7 @@ nav li a {
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.6);
   border-radius: 5px;
   margin-bottom: 40px;
+  
 }
 .box-content{
   justify-content: center;
@@ -160,87 +170,99 @@ padding-bottom:20px;
   padding: 15px;
   border-radius: 6px;
 }
-
-@media only screen and (min-width: 320px) and (max-width: 374px) {
-  .whole-homepage {
-    width: 100%;
-    height: 100%;
-  }
-  .nav-bar {
-    display: none;
-  }
-  .content-heading {
-    flex-direction: column;
-    width: 100%;
-
-  }
-  .main-heading {
-    font-size: 16px;
-
-  }
-  .content{
-    display: flex;
-    flex-direction: column;
-    padding-top: 0.5em;
-    margin-left:-1em;
-
-  }
-  .content-para {
-    padding-top: 12px;
-    font-size: 15px;
-    line-height: 17px;
-    width: 100%;
-  }
-  .content-button button {
-    padding: 4px;
-    margin-top: 20px;
-    font-size:15px;
-  }
-  .content-images{
-    padding-top:2em;
-  }
-  .img2 {
-    width:27%;
-    height:16vh;
-    rotate: 0deg;
-  }
-  .img1 {
-    width: 26%;
-    height: 16vh;
-    rotate:0deg;
-  }
-
-  .content-images {
-    padding-right: 12px;
-    padding-bottom: 20px;
-  }
-  .paragraph{
-    padding:20px;
-  }
-.aboutus{
-  width: 100%;
-  height: 100%;
-}
-.aboutuscontent{
-  display:flex;
-  flex-direction: column;
-}
-.boxes{
+.mission{
   display: flex;
-  flex-direction:column;
-  padding-left:4.1em;
+  justify-content: space-between;
 }
-.box{
-  padding-left:12px;
-  padding-top:10px;
+.mission-content{
+  padding-left:5em;
+  font-size:20px;
 }
-.aboutus h1{
-  margin-top: 1em;
+.mission-heading{
+  padding-bottom: 20px;
+  font-size:40px;
 }
-.downloadbtn{
-padding-left:5em;
+.mission-image{
+width:50%;
+display: flex;
+ justify-content: space-between;
+ padding-right:3em;
+ padding-left:3em;
+ padding-bottom: 20px;
+
 }
-.text{
-  padding: 20px;
+.misson-img-2{
+  width:50%;
+  padding-right:40px;
 }
+.misson-img-1{
+  width:40%;
+
 }
+.mission-buttons{
+  padding-top: 20px;
+}
+.mission-button-1{
+  padding:10px 20px 10px 20px;
+  font-size:13px;
+  color: white;
+  background-color:#3FCC92;
+  border:none;
+  border-radius:10px;
+}
+.mission-button-2{
+  padding:10px 20px 10px 20px;
+  font-size:13px;
+  color: black;
+  background-color:#FFA765;
+  border:none;
+  border-radius:10px;
+}
+.vission{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  padding-top:3em;
+  }
+.vission-content{
+  font-size:20px;
+  padding-right: 3em;
+}
+.vission-heading{
+  padding-bottom: 20px;
+  font-size: 40px;
+}
+.vission-image{
+padding-top:2em;
+display: flex;  
+justify-content: space-between;
+  }
+  .visson-img-1{
+    width:45%;
+    padding-left:4em;
+  }
+  .visson-img-2{
+    width:45%;
+    padding-right:10%;
+  }
+  
+  .vission-buttons{
+    padding-top: 20px;
+    
+  }
+  .vission-button-1{
+    padding:10px 20px 10px 20px;
+    font-size:13px;
+    color: white;
+    background-color:#3FCC92;
+    border:none;
+    border-radius:10px;
+  }
+  .vission-button-2{
+    padding:10px 20px 10px 20px;
+    font-size:13px;
+    color: black;
+    background-color:#FFA765;
+    border:none;
+    border-radius:10px;
+  }
