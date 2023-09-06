@@ -56,16 +56,20 @@
     }
   .aboutus{
     width: 100%;
-    height:190vh;
+    height:140vh;
   }
   .aboutuscontent{
     display:flex;
     flex-direction: column;
   }
-  /* .box{
+  .downloadbtn{
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .box{
     padding-left:12px;
     padding-top:10px;
-  } */
+  }
   .box {
     position: relative;
     width: 131px;
@@ -82,7 +86,7 @@
   padding-left:5em;
   }
   .text{
-    padding: 20px;
+    padding:13px;
   }
   .heading{
     font-size:15px;
@@ -113,9 +117,7 @@
   height: 100%;
 }
 .boxes{
- display:flex;
- flex-direction: column;
-padding-left: 9%;
+  padding-left: 10%;
 }
 .box2-3 {
   margin-left: -2em;
