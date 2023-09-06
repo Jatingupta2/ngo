@@ -56,7 +56,7 @@
     }
   .aboutus{
     width: 100%;
-    height:160vh
+    height:160vh;
   }
   .aboutuscontent{
     display:flex;
@@ -107,30 +107,74 @@
 .aboutuscontent {
   padding-top: 0%;
 }
+.our-mission-vission{
+  width: 100%;
+  height: 100vh;
+}
 .boxes{
-padding-top: 20px;
+padding-left: 9%;
 }
-.box1-2{
-  margin-right:0em;
+.box2-3 {
+  margin-left: -2em;
 }
-.box2-3{
-  margin-left:1em;
+.icon{
+  padding-left: 45px;
+}
+.text{
+  font-size: 14px;
+}
+.box2-3 {
+  margin-left: -2em;
 }
 .mission,.vission{
   display: flex;
   flex-direction: column;
 }
-.mission-heading {
+.mission-heading,.vission-heading {
   padding-bottom: 20px;
   font-size: 40px;
   font-size: 22px;
   text-align: center;
 }
-.mission-content {
+.mission-content{
   padding-left: 5em;
-  font-size: 9px;
+  font-size:11px;
   text-align: center;
   padding-left: 1px;
-  padding-top: 20px;
+}
+.vission-content {
+  padding-left: 0em;
+  padding-right: 0em;
+  text-align: center;
+  font-size: 11px;
+
+}
+
+.misson-img-2 {
+  width: 100%;
+  padding-right: 0px;
+}
+
+.mission-image {
+    display: flex;
+    padding-right: 0em;
+    padding-left: 0em;
+    padding-bottom: 20px;
+    width: 100%;
+  padding-top:20px;
+
+}
+.misson-img-1 {
+  width: 40%;
+  padding-left:10%;
+}
+.misson-img-2 {
+  width: 45%;
+  height: 50%;
+  padding-right:10%;
+}
+.vission {
+  padding-top: 0em;
+  
 }
 }
