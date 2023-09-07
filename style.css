@@ -40,7 +40,7 @@ nav li a {
 }
 .whole-homepage {
   width: 100%;
-  height:100vh;
+  height: 100vh;
   background-color: #0e4e3e;
 }
 .content {
@@ -82,7 +82,7 @@ nav li a {
 .content-button button {
   padding: 10px;
   margin-top: 20px;
-  border-radius:4px;
+  border-radius: 4px;
 }
 .btn1 {
   background-color: #fea865;
@@ -98,14 +98,15 @@ nav li a {
   border-radius: 2px;
   border: none;
 }
-.about-us,.our-mission-vission {
+.about-us,
+.our-mission-vission {
   width: 100%;
 }
-.about-heading{
-  font-size:25px;
+.about-heading {
+  font-size: 25px;
 }
 .aboutus h1 {
-  margin-top:2em;
+  margin-top: 2em;
   text-align: center;
   color: dimgrey;
 }
@@ -115,21 +116,21 @@ nav li a {
 .paragraph {
   float: right;
 }
-.boxes{
+.boxes {
   width: 50%;
   padding-right: 40px;
   justify-content: center;
 }
-.box1-2{
-  display:flex;
+.box1-2 {
+  display: flex;
   justify-content: center;
 }
-.box2-3{
+.box2-3 {
   display: flex;
   justify-content: center;
 }
 
-.box{
+.box {
   position: relative;
   width: 200px;
   height: 150px;
@@ -137,177 +138,187 @@ nav li a {
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.6);
   border-radius: 5px;
   margin-bottom: 40px;
-  margin-left:4em;
-  
+  margin-left: 4em;
 }
-.box-content{
+.box-content {
   justify-content: center;
 }
-.center{
+.center {
   width: 100%;
   text-align: center;
-  font-size:50px;
-  margin-top:30px;
+  font-size: 50px;
+  margin-top: 30px;
 }
-.text{
-margin-top:20px;
-text-align:center;
-width: 100%;
+.text {
+  margin-top: 20px;
+  text-align: center;
+  width: 100%;
 }
-.aboutuscontentp1{
-font-weight: 800;
-font-size:20px;
-padding-bottom:20px;
+.aboutuscontentp1 {
+  font-weight: 800;
+  font-size: 20px;
+  padding-bottom: 20px;
 }
-.aboutuscontentp2{
+.aboutuscontentp2 {
   font-weight: 600;
-  color:#4ea988;
+  color: #4ea988;
   font-size: 18px;
   padding-bottom: 20px;
 }
-.aboutuscontentp3{
-  line-height:25px;
+.aboutuscontentp3 {
+  line-height: 25px;
   padding-bottom: 15px;
 }
-.download{
-  background-color:#4ea988;
+.download {
+  background-color: #4ea988;
   color: white;
   padding: 15px;
   border-radius: 6px;
 }
-.mission{
+.mission {
   display: flex;
   justify-content: space-between;
 }
-.mission-content{
-  padding-left:5em;
-  font-size:20px;
+.mission-content {
+  padding-left: 5em;
+  font-size: 20px;
 }
-.mission-heading{
-  padding-bottom: 20px;
-  font-size:40px;
-}
-.mission-image{
-width:50%;
-display: flex;
- justify-content: space-between;
- padding-right:3em;
- padding-left:3em;
- padding-bottom: 20px;
-
-}
-.misson-img-2{
-  width:50%;
-  padding-right:40px;
-}
-.misson-img-1{
-  width:40%;
-
-}
-.mission-buttons{
-  padding-top: 20px;
-}
-.mission-button-1{
-  padding:10px 20px 10px 20px;
-  font-size:13px;
-  color: white;
-  background-color:#3FCC92;
-  border:none;
-  border-radius:10px;
-}
-.mission-button-2{
-  padding:10px 20px 10px 20px;
-  font-size:13px;
-  color: black;
-  background-color:#FFA765;
-  border:none;
-  border-radius:10px;
-}
-.vission{
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-between;
-  padding-top:3em;
-  }
-.vission-content{
-  font-size:20px;
-  padding-right: 3em;
-}
-.vission-heading{
+.mission-heading {
   padding-bottom: 20px;
   font-size: 40px;
 }
-.vission-image{
-padding-top:2em;
-display: flex;  
-justify-content: space-between;
-  }
-  .visson-img-1{
-    width:45%;
-    padding-left:4em;
-  }
-  .visson-img-2{
-    width:45%;
-    padding-right:10%;
-  }
-  
-  .vission-buttons{
-    padding-top: 20px;
-    
-  }
-  .vission-button-1{
-    padding:10px 20px 10px 20px;
-    font-size:13px;
-    color: white;
-    background-color:#3FCC92;
-    border:none;
-    border-radius:10px;
-  }
-  .vission-button-2{
-    padding:10px 20px 10px 20px;
-    font-size:13px;
-    color: black;
-    background-color:#FFA765;
-    border:none;
-    border-radius:10px;
-  }
-.action-boxes{
+.mission-image {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 3em;
+  padding-left: 3em;
+  padding-bottom: 20px;
+}
+.misson-img-2 {
+  width: 50%;
+  padding-right: 40px;
+}
+.misson-img-1 {
+  width: 40%;
+}
+.mission-buttons {
+  padding-top: 20px;
+}
+.mission-button-1 {
+  padding: 10px 20px 10px 20px;
+  font-size: 13px;
+  color: white;
+  background-color: #3fcc92;
+  border: none;
+  border-radius: 10px;
+}
+.mission-button-2 {
+  padding: 10px 20px 10px 20px;
+  font-size: 13px;
+  color: black;
+  background-color: #ffa765;
+  border: none;
+  border-radius: 10px;
+}
+.vission {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  padding-top: 3em;
+}
+.vission-content {
+  font-size: 20px;
+  padding-right: 3em;
+}
+.vission-heading {
+  padding-bottom: 20px;
+  font-size: 40px;
+}
+.vission-image {
+  padding-top: 2em;
+  display: flex;
+  justify-content: space-between;
+}
+.visson-img-1 {
+  width: 45%;
+  padding-left: 4em;
+}
+.visson-img-2 {
+  width: 45%;
+  padding-right: 10%;
+}
+
+.vission-buttons {
+  padding-top: 20px;
+}
+.vission-button-1 {
+  padding: 10px 20px 10px 20px;
+  font-size: 13px;
+  color: white;
+  background-color: #3fcc92;
+  border: none;
+  border-radius: 10px;
+}
+.vission-button-2 {
+  padding: 10px 20px 10px 20px;
+  font-size: 13px;
+  color: black;
+  background-color: #ffa765;
+  border: none;
+  border-radius: 10px;
+}
+.action-boxes {
   display: flex;
   justify-content: center;
   margin-bottom: 40px;
 }
-.a-box{
-box-shadow: 0 3px 10px rgb(0 0 0 / 0.6);
-border-radius:5px;
-padding: 15px;
-margin-left:60px;
-font-size:20px;
-
-}   
-.action-text{
+.a-box {
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.6);
+  border-radius: 5px;
+  padding: 15px;
+  margin-left: 60px;
+  font-size: 20px;
+}
+.action-text {
   text-align: center;
-  margin-top:80px;
+  margin-top: 80px;
   margin-bottom: 40px;
   font-size: 28px;
 }
-.what-heading{
+.what-heading {
   text-align: center;
-  margin-top:80px;
+  margin-top: 80px;
   margin-bottom: 40px;
-  justify-content:space-between
+  justify-content: space-between;
 }
-.what-boxes{
+.what-boxes {
   display: flex;
   margin-bottom: 40px;
 }
-.what-heading h2{
+.what-heading h2 {
   margin-bottom: 40px;
 }
-.w-box{
+.w-box {
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.6);
-  border-radius:5px;
+  border-radius: 5px;
   padding: 15px;
-  margin-left:60px;
-  font-size:20px;
-  
-  }   
+  margin-left: 60px;
+  font-size: 20px;
+}
+.end-footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #39395b;
+  padding: 40px 80px 40px 80px;
+  line-height: 35px;
+  color: white;
+}
+.kindheartz h1,
+.quicklinks h1,
+.support h1 {
+  padding-bottom: 20px;
+}
+.end-footer h1{
+font-size:35px;
+}

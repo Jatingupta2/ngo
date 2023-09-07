@@ -212,4 +212,17 @@ font-size:20px;
   align-items: center;
   margin-bottom: 20px;
   }  
+  .end-footer{
+    display: flex;
+    flex-direction: column;
+    padding:10px 20px 10px 20px;
+    line-height: 20px;
+  }
+  .kindheartz,.quicklinks{
+    padding-bottom: 20px;
+  }
+  .end-footer p{
+font-size:15px;
+  }
+
 }
