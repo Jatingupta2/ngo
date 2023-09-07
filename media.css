@@ -1,7 +1,7 @@
 @media only screen and (min-width: 320px) and (max-width: 767px) {
     .whole-homepage {
       width: 100%;
-      /* height: 100%; */
+     height:auto;
     }
     .nav-bar {
       display: none;
@@ -149,6 +149,9 @@
 .vission {
   padding-top: 0em;
 }
+.box{
+margin-left:20px;
+}
 .box1-2{
   display:flex;
   flex-direction: column;
@@ -158,5 +161,9 @@
   flex-direction: column;
 
 }
+.mission-button-2,.vission-button-2 {
+  margin-left: 20px;
+}
+
 
 }
