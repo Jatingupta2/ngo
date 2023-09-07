@@ -117,20 +117,19 @@ nav li a {
 }
 .boxes{
   width: 50%;
-  padding-left:40px;
   padding-right: 40px;
+  justify-content: center;
 }
 .box1-2{
   display:flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 .box2-3{
   display: flex;
-  justify-content: space-between;
-
+  justify-content: center;
 }
 
-.box {
+.box{
   position: relative;
   width: 200px;
   height: 150px;
@@ -138,6 +137,7 @@ nav li a {
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.6);
   border-radius: 5px;
   margin-bottom: 40px;
+  margin-left:4em;
   
 }
 .box-content{
@@ -268,3 +268,22 @@ justify-content: space-between;
     border:none;
     border-radius:10px;
   }
+.action-boxes{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.a-box{
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.6);
+border-radius:5px;
+padding: 15px;
+margin-left:60px;
+font-size:20px;
+
+}   
+.action-text{
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 28px;
+}
