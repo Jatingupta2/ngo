@@ -277,7 +277,7 @@ justify-content: space-between;
   margin-bottom: 40px;
 }
 .a-box{
-  box-shadow: 0 3px 10px rgb(0 0 0 / 0.6);
+box-shadow: 0 3px 10px rgb(0 0 0 / 0.6);
 border-radius:5px;
 padding: 15px;
 margin-left:60px;
@@ -286,7 +286,28 @@ font-size:20px;
 }   
 .action-text{
   text-align: center;
-  margin-top: 40px;
+  margin-top:80px;
   margin-bottom: 40px;
   font-size: 28px;
 }
+.what-heading{
+  text-align: center;
+  margin-top:80px;
+  margin-bottom: 40px;
+  justify-content:space-between
+}
+.what-boxes{
+  display: flex;
+  margin-bottom: 40px;
+}
+.what-heading h2{
+  margin-bottom: 40px;
+}
+.w-box{
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.6);
+  border-radius:5px;
+  padding: 15px;
+  margin-left:60px;
+  font-size:20px;
+  
+  }   
